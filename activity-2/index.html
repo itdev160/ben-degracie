@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Sports Teams</title>
+</head>
+<body>
+    <img src="Chargers.jpg" alt="Chargers Logo" width="200" height="200">
+    <br>
+    <a href="mailto:ben@fake.com">Contact Ben</a>
+    <h1>My Favorite Sports Teams</h1>
+    <!-- Simple Table-->
+    <table id="simple-table" border="1" cellspacing="0">
+        <tr>
+            <th>Team</th>
+            <th>URL</th>
+        </tr>
+        <tr>
+            <td>Los Angeles Chargers</td>
+            <td><a href="https://www.chargers.com/"  target="_blank">Los Angeles Chargers</a></td>
+        </tr>
+        <tr>
+            <td>Pittsburgh Pirates</td>
+            <td><a href="https://www.mlb.com/pirates" target="_blank">Pittsburgh Pirates</a></td>
+        </tr>
+    </table>
+    <br>
+    <!-- Complex Table -->
+    <table id="complex-table" border="1" cellspacing="0">
+        <thead>
+            <th>Features</th>
+            <th scope="column">Plays</th>
+            <th scope="column">Open Back</th>
+            <th scope="column">Insanely Expensive</th>
+            <th scope="column">I own</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">Chargers</td>
+                <td colspan="3">Yes</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td scope="row">Pirates</td>
+                <td>Yes</td>
+                <td colspan="2">Yes</td>
+                <td>No</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="5">&copy; Ben DeGracie 2020</td>
+        </tfoot>
+    </table>
+</body>
+</html>
